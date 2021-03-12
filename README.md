@@ -148,21 +148,29 @@ param_transform_crop = 224
 ### Output of training
 
 ```bash
-start training for 5 epochs ...
-load previous saved model ...
-Epoch: 1 	Training Loss: 1.387199 	Validation Loss: 0.574920  Saving model ...
-Epoch: 2 	Training Loss: 1.320768 	Validation Loss: 0.547921  Saving model ...
-Epoch: 3 	Training Loss: 1.285078 	Validation Loss: 0.525249  Saving model ...
-Epoch: 4 	Training Loss: 1.281811 	Validation Loss: 0.501114  Saving model ...
-Epoch: 5 	Training Loss: 1.202475 	Validation Loss: 0.496238  Saving model ...
-done
+Epoch: 1 	Training Loss: 0.000000 	Validation Loss: 0.046180
+Validation loss decreased (3.877533 --> 0.046180).  Saving model ...
+Epoch: 2 	Training Loss: 0.000000 	Validation Loss: 0.031180
+Validation loss decreased (0.046180 --> 0.031180).  Saving model ...
+Epoch: 3 	Training Loss: 0.000000 	Validation Loss: 0.091424
+Epoch: 4 	Training Loss: 0.000000 	Validation Loss: 0.176365
+Epoch: 5 	Training Loss: 0.000000 	Validation Loss: 0.024236
+Validation loss decreased (0.031180 --> 0.024236).  Saving model ...
+Epoch: 6 	Training Loss: 0.000000 	Validation Loss: 0.014166
+Validation loss decreased (0.024236 --> 0.014166).  Saving model ...
+Epoch: 7 	Training Loss: 0.000000 	Validation Loss: 0.033035
+Epoch: 8 	Training Loss: 0.000000 	Validation Loss: 0.061397
+Epoch: 9 	Training Loss: 0.000000 	Validation Loss: 0.000159
+Validation loss decreased (0.014166 --> 0.000159).  Saving model ...
+Epoch: 10 	Training Loss: 0.000000 	Validation Loss: 0.000170
 ```
 
 I got the training results of:
 
 ```bash
-Test Loss: 0.000668
-Test Accuracy: 82% (691/836)
+Test Loss: 5.357925
+
+Test Accuracy: 80% (675/836)
 ```
 After 5 epochs, I got a test accuracy of `82%`. That's god and can be improved.
 
@@ -177,7 +185,7 @@ The next steps will be:
 
 ## Authors
 
-* Daniel Jaensch
+* Rishabh Gupta
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
